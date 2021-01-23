@@ -57,8 +57,8 @@ public class Test : MonoBehaviour
                 // 防御用の関数を呼び出す
                 boss.Defence(3);
 
-                // 魔法を10回行う
-                for(int i=0; i<15; i++){
+                // 魔法を11回行う
+                for(int i=0; i<11; i++){
                     boss.Magic();
                 }
         }
